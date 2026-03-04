@@ -17,30 +17,22 @@ This project allows users to record daily counts for any task (e.g., studying, e
 
 1. Make sure you have Python installed (>=3.7)  
 2. Clone the repository or download the files  
-3. Install required libraries:
+3. Install required library: pip install matplotlib
 
-```bash
-pip install matplotlib
-Usage
+## Usage
 
-Activate your virtual environment (optional but recommended):
-
-# Windows PowerShell
+Activate your virtual environment (optional but recommended): Windows PowerShell
 .\venv\Scripts\Activate.ps1
-
-Run the application:
-
-python advcounter_app.py
-
+Run the application: python advcounter_app.py
 Choose from the menu:
 
 1. Add Task Count/Hours
 2. View Task Stats/Graph
 3. Exit
+4. Follow the prompts to add tasks or view graphs.
 
-Follow the prompts to add tasks or view graphs.
+## Example
 
-Example
 Choose option: 1
 Enter task name: study
 Enter date (DD-MM-YYYY) or leave blank for today: 
@@ -54,7 +46,7 @@ Enter task name: study
 
 The graph will display progress over the entered dates.
 
-Files
+## Files
 
 advcounter_app.py – main Python script for the app
 
