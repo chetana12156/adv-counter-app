@@ -1,66 +1,61 @@
-Advanced Counter App
-The Advanced Counter App is a Python-based tool that allows users to track and visualize daily activities. Users can log the number of hours, repetitions, or units for any task, and view progress over time through graphs. This project is designed to help users monitor habits, productivity, or any measurable activity effectively.
+# Advanced Counter App
 
-Features
-Add hours/reps for multiple tasks per day
+A Python application to track tasks, hours, or repetitions over time with visual progress graphs.
 
-Choose custom dates for task entries
+## Overview
 
-View task progress as a graph
+This project allows users to record daily counts for any task (e.g., studying, exercise, sleep) and visualize their progress with graphs. The app saves data locally in JSON format, making it persistent across sessions.
 
-Persistent data storage using JSON
+## Features
 
-Simple and user-friendly command-line interface
+- Add tasks with custom counts/hours per day  
+- View task statistics and progress graphs over time  
+- Flexible input: choose any date or default to today  
+- Data saved automatically in `tasks.json`  
 
-Installation
-Clone the repository:
+## Installation
 
-git clone https://github.com/your-username/adv-counter-app.git
-Navigate to the project folder:
+1. Make sure you have Python installed (>=3.7)  
+2. Clone the repository or download the files  
+3. Install required libraries:
 
-cd adv-counter-app
-Create and activate a virtual environment (optional but recommended):
-
-python -m venv venv
-# Windows
-.\venv\Scripts\Activate.ps1
-# Mac/Linux
-source venv/bin/activate
-Install required packages:
-
+```bash
 pip install matplotlib
-Usage
-Run the app:
+##Usage
+
+Activate your virtual environment (optional but recommended):
+
+# Windows PowerShell
+.\venv\Scripts\Activate.ps1
+
+Run the application:
 
 python advcounter_app.py
-Options in the app:
 
-Add Task Count/Hours – Enter task name, date (optional), and hours/reps.
+Choose from the menu:
 
-View Task Stats/Graph – Choose a task to see daily progress and a visual graph.
-
-Exit – Close the app.
-
-Example
 1. Add Task Count/Hours
 2. View Task Stats/Graph
 3. Exit
+
+Follow the prompts to add tasks or view graphs.
+
+##Example
 Choose option: 1
-Enter task name: Study
+Enter task name: study
 Enter date (DD-MM-YYYY) or leave blank for today: 
 Enter hours/reps for this task: 5
-Study updated for 2026-03-05 with 5.0 units.
+study updated for 05-03-2026 with 5.0 units.
+
 Choose option: 2
-Enter task name: Study
+Enter task name: study
 05-03-2026: 5.0
-06-03-2026: 3.0
-[Graph opens showing progress over time]
-Files
-advcounter_app.py – main Python script
+06-03-2026: 4.0
 
-tasks.json – stores task data
+The graph will display progress over the entered dates.
 
-.gitignore – ignores unnecessary files like virtual environments
+##Files
 
-License
-This project is open-source and free to use.
+advcounter_app.py – main Python script for the app
+
+tasks.json – stores task data persistently
