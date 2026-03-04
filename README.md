@@ -21,7 +21,7 @@ This project allows users to record daily counts for any task (e.g., studying, e
 
 ```bash
 pip install matplotlib
-##Usage
+Usage
 
 Activate your virtual environment (optional but recommended):
 
@@ -40,7 +40,7 @@ Choose from the menu:
 
 Follow the prompts to add tasks or view graphs.
 
-##Example
+Example
 Choose option: 1
 Enter task name: study
 Enter date (DD-MM-YYYY) or leave blank for today: 
@@ -54,7 +54,7 @@ Enter task name: study
 
 The graph will display progress over the entered dates.
 
-##Files
+Files
 
 advcounter_app.py – main Python script for the app
 
